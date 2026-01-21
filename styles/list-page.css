@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fffbe9;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.recipes {
+  background-color: #ad8b73;
+  color: #fffbe9;
+  font-family: roboto;
+  text-align: center;
+  padding: 1.5em;
+  margin-top: 1em;
+}
+.recipes-list ul {
+  list-style-type: none;
+  color: #3b180a;
+  padding: 2em;
+}

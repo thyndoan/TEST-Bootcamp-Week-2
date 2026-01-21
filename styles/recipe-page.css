@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fffbe9;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.title {
+  background-color: #ad8b73;
+  color: #fffbe9;
+  font-family: roboto;
+  text-align: center;
+  padding: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.title h1 {
+  color: rgb(54, 48, 40);
+}
+.title p {
+  padding: 1em;
+}
+.ingredients {
+  margin: 2em;
+}
+.ingredients ul {
+  color: #251d19;
+  list-style-type: none;
+  padding: 0.5em;
+}
+.instruction {
+  margin: 2em;
+}
+.instruction p {
+  color: #251d19;
+  padding: 0.5em;
+}

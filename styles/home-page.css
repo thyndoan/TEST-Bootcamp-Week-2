@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fffbe9;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.home {
+  background-color: #ad8b73;
+  color: #fffbe9;
+  font-family: roboto;
+  text-align: center;
+  padding: 1.5em;
+  margin-top: 1em;
+}
