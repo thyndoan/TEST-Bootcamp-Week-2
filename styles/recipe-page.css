@@ -6,6 +6,11 @@
 html {
   background-color: #fffbe9;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -16,9 +21,10 @@ html {
   color: #fffbe9;
   font-family: roboto;
   text-align: center;
-  padding: 1.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding: 2.5em 1.5em;
+  margin: 2em;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 .title h1 {
   color: rgb(54, 48, 40);
@@ -40,4 +46,22 @@ html {
 .instruction p {
   color: #251d19;
   padding: 0.5em;
+}
+
+/*Checkbox styles*/
+.ingredients input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ad8b73;
+  border-radius: 50%;
+  cursor:
+    url(cute-pointer.png) 10 10,
+    auto;
+  background-color: #fffbe9;
+  transition: background-color 0.2s ease;
+}
+
+.ingredients input[type="checkbox"]:checked {
+  background-color: #ad8b73;
 }
