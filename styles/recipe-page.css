@@ -6,15 +6,27 @@
 html {
   background-color: #fffbe9;
 }
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1em;
 }
-.roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+nav a {
+  text-decoration: none;
+  color: #ad8b73;
+  font-weight: bold;
+  font-size: larger;
 }
 .title {
   background-color: #ad8b73;
@@ -26,9 +38,7 @@ html {
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
-.title h1 {
-  color: rgb(54, 48, 40);
-}
+
 .title p {
   padding: 1em;
 }
@@ -36,15 +46,20 @@ html {
   margin: 2em;
 }
 .ingredients ul {
-  color: #251d19;
+  color: #4c311f;
   list-style-type: none;
   padding: 0.5em;
 }
 .instruction {
   margin: 2em;
 }
+h3,
+h4 {
+  color: #6c3008;
+  padding: 0.5em;
+}
 .instruction p {
-  color: #251d19;
+  color: #4c311f;
   padding: 0.5em;
 }
 

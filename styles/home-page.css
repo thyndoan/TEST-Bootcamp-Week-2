@@ -11,11 +11,31 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.home {
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ad8b73;
+  font-weight: bold;
+  font-size: larger;
+}
+.title {
   background-color: #ad8b73;
   color: #fffbe9;
   font-family: roboto;
   text-align: center;
-  padding: 1.5em;
-  margin-top: 1em;
+  padding: 2.5em 1.5em;
+  margin: 2em;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
