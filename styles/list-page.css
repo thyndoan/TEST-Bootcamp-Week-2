@@ -48,7 +48,6 @@ ul {
   background: #fffbe9;
   padding: 0.6em 1.2em;
   margin: 0.5em 0;
-  border-radius: 50px;
   text-decoration: none;
   color: #ad8b73;
   font-weight: 600;
@@ -56,5 +55,6 @@ ul {
 
 .recipe-list a:hover {
   background: #f2e4d4;
+  border-radius: 50px;
   transform: scale(1.05);
 }
